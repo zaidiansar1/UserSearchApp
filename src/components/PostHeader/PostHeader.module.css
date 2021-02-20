@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+
+* {
+    user-select: none;
+}
+
+.postHeaderContainer {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    margin: 0 auto;
+    height: 25vh;
+    align-items: center;
+}
+
+h1 {
+    color: black;
+    font-family: 'Satisfy', cursive;
+    cursor: pointer;
+}
+
+.postHeaderContainer input {
+    border-radius: 50px;
+    text-align: center;
+    width: 40%;
+    padding: 10px 0;
+    font-family: 'Satisfy', cursive;
+    font-size: 1rem;
+    color: red;
+}
+
+.postHeaderContainer input:focus {
+    outline: none;
+    border: 1.5px solid red;
+}
+
+.postHeaderContainer img {
+    cursor: pointer;
+}

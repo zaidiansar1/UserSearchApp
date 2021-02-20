@@ -1,0 +1,16 @@
+.commentContainer {
+    border-bottom: 1px solid rgb(213, 199, 228);
+    box-shadow: 0px 0px 10px 2px #ddd;
+    border-radius: 10px;
+    padding: 1rem 1rem;
+    margin-top: 1rem;
+}
+
+.head {
+    display: flex;
+    justify-content: space-between;
+}
+
+.head img {
+    cursor: pointer;
+}
